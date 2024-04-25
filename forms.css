@@ -12,7 +12,7 @@
             height: auto;
             background-position: center;
             background-repeat: no-repeat;
-            background-size: 150% auto;
+            background-size: auto;
             position: relative;
 			font-family: Verdana;
 			text-align: center;
@@ -77,4 +77,4 @@
 			margin-bottom: 20px;
             color: white;
 		}
-	</style>
+	/* </style> */
