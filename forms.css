@@ -1,0 +1,80 @@
+/* <style> */
+		/* Styling the Body element 
+		i.e. Color, Font, Alignment */
+
+
+		body {
+			/* background-color: purple; */
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-image:url("bg3.jpg");
+            /* Photo by <a href="https://unsplash.com/@wasdrew?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Andras Vas</a> on <a href="https://unsplash.com/photos/macbook-pro-turned-on-Bd7gNnWJBkU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a> */
+            height: auto;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 150% auto;
+            position: relative;
+			font-family: Verdana;
+			text-align: center;
+            color: white;
+		}
+
+		/* Styling the Form (Color, Padding, Shadow) */
+		form {
+			background-color: #93d1dd;
+			max-width: 500px;
+			margin: 50px auto;
+			padding: 30px 20px;
+            backdrop-filter: blur(20px);
+            background: transparent;
+            border-radius: 20px;
+			box-shadow: 5px 5px 10px hwb(0 12% 70% / 0.502);
+		}
+
+		/* Styling form-control Class */
+		.form-control {
+			text-align: left;
+			margin-bottom: 25px;
+		}
+
+		/* Styling form-control Label */
+		.form-control label {
+			display: block;
+			margin-bottom: 10px;
+		}
+
+		/* Styling form-control input, 
+		select, textarea */
+		.form-control input,
+		.form-control select,
+		.form-control textarea {
+			border: 1px solid #777;
+			border-radius: 2px;
+			font-family: inherit;
+			padding: 10px;
+			display: block;
+			width: 95%;
+		}
+
+		/* Styling form-control Radio 
+		button and Checkbox */
+		.form-control input[type="radio"],
+		.form-control input[type="checkbox"] {
+			display: inline-block;
+			width: auto;
+		}
+
+		/* Styling Button */
+		button {
+			background-color: hsl(251, 95%, 39%);
+			/* border: 1px solid #777; */
+			border-radius: 10px;
+			font-family: inherit;
+			font-size: 21px;
+			display: block;
+			width: 100%;
+			margin-top: 50px;
+			margin-bottom: 20px;
+            color: white;
+		}
+	</style>
